@@ -1,0 +1,28 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Merge.srcs/sources_1/imports/new/ALU_Unit.vhd" \
+"../../../../Merge.srcs/sources_1/imports/new/Add_Sub_Unit.vhd" \
+"../../../../Merge.srcs/sources_1/imports/new/D_FF.vhd" \
+"../../../../Merge.srcs/sources_1/imports/new/Decoder_2_to_4.vhd" \
+"../../../../Merge.srcs/sources_1/imports/new/Decoder_3_to_8.vhd" \
+"../../../../Merge.srcs/sources_1/imports/new/FA.vhd" \
+"../../../../Merge.srcs/sources_1/imports/new/HA.vhd" \
+"../../../../Merge.srcs/sources_1/imports/new/InstructionDecoder.vhd" \
+"../../../../Merge.srcs/sources_1/imports/new/LUT_16_7.vhd" \
+"../../../../Merge.srcs/sources_1/imports/new/MUX_2_to_4.vhd" \
+"../../../../Merge.srcs/sources_1/imports/new/MUX_8_to_4.vhd" \
+"../../../../Merge.srcs/sources_1/imports/sources_1/new/Mux_2W3B.vhd" \
+"../../../../Merge.srcs/sources_1/new/NanoProcessor.vhd" \
+"../../../../Merge.srcs/sources_1/imports/sources_1/imports/new/ProgramCounter.vhd" \
+"../../../../Merge.srcs/sources_1/imports/sources_1/imports/new/ProgramROM.vhd" \
+"../../../../Merge.srcs/sources_1/imports/new/RCA_4.vhd" \
+"../../../../Merge.srcs/sources_1/imports/new/Reg.vhd" \
+"../../../../Merge.srcs/sources_1/imports/new/RegisterBank.vhd" \
+"../../../../Merge.srcs/sources_1/imports/new/Slow_Clk.vhd" \
+"../../../../Merge.srcs/sources_1/imports/sources_1/imports/new/TBA.vhd" \
+"../../../../Merge.srcs/sources_1/new/TSB_3.vhd" \
+"../../../../Merge.srcs/sources_1/imports/new/TristateBuff.vhd" \
+"../../../../Merge.srcs/sim_1/new/NanoProcessor_Test.vhd" \
+
+# Do not sort compile order
+nosort

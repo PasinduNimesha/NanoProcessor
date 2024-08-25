@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Merge.srcs/sources_1/imports/new/D_FF.vhd" \
+"../../../../Merge.srcs/sources_1/imports/sources_1/imports/new/ProgramCounter.vhd" \
+"../../../../Merge.srcs/sources_1/imports/new/Slow_Clk.vhd" \
+"../../../../Merge.srcs/sources_1/new/PC_Test.vhd" \
+
+# Do not sort compile order
+nosort
